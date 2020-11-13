@@ -21,7 +21,6 @@
 
 >然后上传云函数
 
-
 ![实例三](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-whwtvwhbwhrhf0d267/b8dee8e0-25a5-11eb-97b7-0dc4655d6e68.png "url")
 
 >然后上最好配置自己的小程序appid  和  uniapp的应用标识id (否则可能出现打不开小程序的问题，小程序appid 需要注册小程序后才能得到)
