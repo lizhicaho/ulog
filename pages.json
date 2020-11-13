@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+            "path" : "pages/login/login",
+            "style" : {
+			}
+        },
+		{
+		    "path" : "pages/shop/shop",
+		    "style": {
+		    	"navigationBarTitleText": "最热",
+		    	"enablePullDownRefresh": true
+		    }
+		},
+		{
+		    "path" : "pages/shop/templeshow",
+		    "style": {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor": "#000000",
+				"backgroundColor": "#000000",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"buttons": [{
+								"type": "share"
+							},
+							{
+								"type": "favorite"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/square/square",
+			"style" : {
+				"navigationBarTitleText": "广场",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/register/register",
+		    "style" : {}
+		},
+        {
+            "path" : "pages/home/home",
+            "style" : {}
+        }
+		,
+		{
+		    "path" : "pages/form/form",
+		    "style" : {}
+		}
+        
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        },
+		{
+            "path" : "pages/my/fileup",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/templatez/templatez",
+            "style" : {}
+        },{
+            "path" : "pages/question/question",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#1296DB",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "简历",
+				"iconPath": "static/images/tabbar/story.png",
+				"selectedIconPath": "static/images/tabbar/story_active.png"
+			},
+			{
+				"pagePath": "pages/square/square",
+				"text": "广场",
+				"iconPath": "static/images/tabbar/activities.png",
+				"selectedIconPath": "static/images/tabbar/activities_active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/images/tabbar/my.png",
+				"selectedIconPath": "static/images/tabbar/my_active.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,4 @@
+node_modules/
+# 忽略微信配置文件
+wechat_config.js
+unpackage/
